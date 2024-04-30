@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Age calculator</title>
+  <script src="script.js"></script>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="main-content">
+      <div class="box-inputs">
+        <div class="single-input">
+          <label>Enter your date</label>
+          <input type="date" name="date" id="date">
+        </div>
+      </div>
+      <div class="button-content">
+        <div class="line"></div>
+        <button id="submit" onclick="calculateAge()"></button>
+        <div class="line-sec"></div>
+      </div>
+      <div class="result-view" id="result-view">
+        <span></span> Your age is : <span id="res"></span>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
